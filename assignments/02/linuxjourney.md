@@ -3,6 +3,7 @@
 ### Exercise: 
 Linux commands in Git Bash and what they output:<br>
 $ date <br> 
----> output:
+---> output: 
+<br>
 $ whoami 
 ---> output:
