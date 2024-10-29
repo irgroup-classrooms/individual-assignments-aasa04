@@ -11,7 +11,7 @@ Linux commands in Git Bash and what they output:<br>
 What should be outputted to the display when you type echo Hello World? 
 <br>Answer: Hello World
 <br>
-## 2. pwd (Print Working Directory)
+**## 2. pwd (Print Working Directory)**
 ### Quiz
 How do I find what directory you are currently in? 
 <br>Answer:
