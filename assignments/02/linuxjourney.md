@@ -2,5 +2,7 @@
 ## 1.The Shell
 ### Exercise: 
 Linux commands in Git Bash and what they output:<br>
-$ date <br>
-$ whoami
+$ date <br> 
+---> output:
+$ whoami 
+---> output:
