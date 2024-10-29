@@ -7,4 +7,12 @@ Linux commands in Git Bash and what they output:<br>
 <br>
 **$ whoami** <br> 
 ---> output: tareh
+### Quiz
+What should be outputted to the display when you type echo Hello World? <br>
+Answer: Hello Worl
+
+## 2. pwd (Print Working Directory)
+### Quiz
+How do I find what directory you are currently in?
+Answer:
 
