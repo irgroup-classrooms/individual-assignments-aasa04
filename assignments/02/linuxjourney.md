@@ -3,7 +3,7 @@
 
 ## 1.The Shell
 ### Exercise: 
-1.Linux commands in Git Bash and what they output:
+Linux commands in Git Bash and what they output:
 <br>
 **$ date** 
 <br> 
@@ -31,7 +31,7 @@ $ cd .  (current directory). This is the directory you are currently in.
 <br>$ cd -  (previous directory). This will take you to the previous directory you were just at.
 
 ### Exercise: 
-1.Run the cd command without any flags, where does it take you?
+Run the cd command without any flags, where does it take you?
 <br>Answer: When I type in  "cd ~"  it goes to the my home directory "/c/Users"
 ### Quiz:
 If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a good shortcut to use?
@@ -40,6 +40,11 @@ If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a goo
 <br>
 ## 4. ls (List Directories)
 ### Exercise:
+Run ls with different flags and see the output you receive.
+<br><br>
+<br>ls -R: recursively list directory contents
+<br>ls -r: reverse order while sorting
+ls -t: sort by modification time, newest first
 ### Quiz:
 
 
