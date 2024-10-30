@@ -43,16 +43,10 @@ If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a goo
 Run ls with different flags and see the output you receive.
 <br> 
 <br>ls -R: recursively list directory contents
-<br> 
----> output:
 <br>ls -r: reverse order while sorting
-<br> 
----> output:
 <br>ls -t: sort by modification time, newest first
-<br> 
----> output:
 ### Quiz:
 What command would you use to see hidden files?
-<br>Answer:
+<br>Answer: **ls -a**
 
 
