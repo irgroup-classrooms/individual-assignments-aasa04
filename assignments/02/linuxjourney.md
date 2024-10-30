@@ -41,10 +41,15 @@ If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a goo
 ## 4. ls (List Directories)
 ### Exercise:
 Run ls with different flags and see the output you receive.
-
 <br>ls -R: recursively list directory contents
+<br> 
+---> output:
 <br>ls -r: reverse order while sorting
+<br> 
+---> output:
 <br>ls -t: sort by modification time, newest first
+<br> 
+---> output:
 ### Quiz:
 
 
