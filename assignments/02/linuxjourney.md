@@ -52,5 +52,6 @@ Run ls with different flags and see the output you receive.
 <br> 
 ---> output:
 ### Quiz:
-
+What command would you use to see hidden files?
+<br>Answer:
 
