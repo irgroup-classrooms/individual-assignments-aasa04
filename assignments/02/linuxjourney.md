@@ -36,6 +36,10 @@ $ cd .  (current directory). This is the directory you are currently in.
 ### Quiz:
 If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a good shortcut to use?
 <br>Answer: **cd ..**
-
+<br>
+<br>
+## 4. ls (List Directories)
+### Exercise:
+### Quiz:
 
 
