@@ -40,8 +40,8 @@ If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a goo
 <br>
 ## 4. ls (List Directories)
 $ ls /home/pete: Lists the contents of the /home/pete directory.
-$ ls -a: Lists all files in the current directory, including hidden files (those starting with a dot).
-$ ls -la: Lists all files in the current directory in a detailed format, including hidden files, showing permissions, owner, group, size, and modification date.
+<br>$ ls -a: Lists all files in the current directory, including hidden files (those starting with a dot).
+<br>$ ls -la: Lists all files in the current directory in a detailed format, including hidden files, showing permissions, owner, group, size, and modification date.
 ### Exercise:
 Run ls with different flags and see the output you receive.
 <br> 
