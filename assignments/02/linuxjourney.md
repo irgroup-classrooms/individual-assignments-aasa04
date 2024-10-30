@@ -26,9 +26,9 @@ How do I find what directory you are currently in?
 ## 3.cd (Change Directory)
 
 $ cd .  (current directory). This is the directory you are currently in.
-$ cd .. (parent directory). Takes you to the directory above your current.
-$ cd ~  (home directory). This directory defaults to your “home directory”. Such as /home/pete.
-$ cd -  (previous directory). This will take you to the previous directory you were just at.
+<br>$ cd .. (parent directory). Takes you to the directory above your current.
+<br>$ cd ~  (home directory). This directory defaults to your “home directory”. Such as /home/pete.
+<br>$ cd -  (previous directory). This will take you to the previous directory you were just at.
 
 ### Exercise: 
 1.Run the cd command without any flags, where does it take you?
