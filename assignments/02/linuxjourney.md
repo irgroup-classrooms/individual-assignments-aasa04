@@ -20,15 +20,16 @@ What should be outputted to the display when you type echo Hello World?
 ## 2. pwd (Print Working Directory)
 ### Quiz
 How do I find what directory you are currently in? 
-<br>Answer: $ pwd
+<br>Answer: **$ pwd**
 <br>
 <br>
 ## 3.cd (Change Directory)
 ### Exercise: 
 1.Run the cd command without any flags, where does it take you?
-<br>Answer: When I type in "cd ~" it goes to the my home directory "/c/Users"
+<br>Answer: When I type in **cd ~** it goes to the my home directory **/c/Users**
 ### Quiz
 If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a good shortcut to use?
+<br>Answer: **cd ..**
 
 
 
