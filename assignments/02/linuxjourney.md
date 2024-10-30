@@ -44,7 +44,7 @@ Run ls with different flags and see the output you receive.
 <br><br>
 <br>ls -R: recursively list directory contents
 <br>ls -r: reverse order while sorting
-ls -t: sort by modification time, newest first
+<br>ls -t: sort by modification time, newest first
 ### Quiz:
 
 
