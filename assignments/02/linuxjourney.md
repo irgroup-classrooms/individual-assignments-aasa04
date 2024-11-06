@@ -58,7 +58,13 @@ What command would you use to see hidden files?
 1.Create a new file<br>
 touch myfile
 <br>
+<br>
 2.Note the timestamp<br>
-3.Touch the file and check the timestamp once again
+-rw-r--r-- 1 tareh 197609 0 Nov  6 15:49 myfile
+<br>
+<br>
+3.Touch the file and check the timestamp once again<br>
+-rw-r--r-- 1 tareh 197609 0 Nov  6 15:55 myfile
+
 
 
