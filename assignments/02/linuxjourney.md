@@ -51,5 +51,14 @@ Run ls with different flags and see the output you receive.
 ### Quiz:
 What command would you use to see hidden files?
 <br>Answer: **ls -a**
+<br>
+<br>
+## 5. touch
+### Exercise: 
+1.Create a new file<br>
+touch myfile
+<br>
+2.Note the timestamp<br>
+3.Touch the file and check the timestamp once again
 
 
