@@ -67,7 +67,7 @@ touch myfile
 -rw-r--r-- 1 tareh 197609 0 Nov  6 15:55 myfile
 ### Quiz:
 How do you create a file called myfile?<br>
-Answer: **touch** myfile
+Answer:  **touch** myfile
 <br>
 <br>
 ## 6. file
@@ -75,13 +75,18 @@ Answer: **touch** myfile
 Run the file command on a few different directories and files and note the output.<br>
 **$ file /c/Users/tareh/Downloads/Cambridge.pdf**
 <br> 
----> output:/c/Users/tareh/Downloads/Cambridge.pdf: PDF document, version 1.3, 1 page(s)
+---> output: /c/Users/tareh/Downloads/Cambridge.pdf: PDF document, version 1.3, 1 page(s)
 ### Quiz:
 What command can you use to find the file type of a file?<br>
-Answer: **file**
+Answer:  **file**
 <br>
 <br>
-## 7.
-
-
+## 7.cat
+### Exercise:
+Run cat on different files and directories. Then try to cat multiple files.<br>
+**$ cat /c/Users/tareh/Downloads/wissensorga/hausarbeit/5/5/litie-05.txt** **/c/Users/tareh/anaconda3/pkgs/conda-24.1.2-py311haa95532_0/Lib/sitepackages/conda/_vendor/frozendict/LICENSE.txt**
+<br>
+### Quiz:
+What's a good way to see the contents of a file?<br>
+Answer:  **cat**
 
