@@ -84,7 +84,8 @@ Answer:  **file**
 ## 7.cat
 ### Exercise:
 Run cat on different files and directories. Then try to cat multiple files.<br>
-**$ cat /c/Users/tareh/Downloads/wissensorga/hausarbeit/5/5/litie-05.txt** **/c/Users/tareh/anaconda3/pkgs/conda-24.1.2py311haa95532_0/Lib/sitepackages/conda/_vendor/frozendict/LICENSE.txt** 
+**$ cat myfile dogfile**
+--> output:"The content of both files"
 <br>
 ### Quiz:
 What's a good way to see the contents of a file?<br>
