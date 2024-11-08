@@ -85,9 +85,26 @@ Answer:  **file**
 ### Exercise:
 Run cat on different files and directories. Then try to cat multiple files.<br>
 **$ cat myfile dogfile**
---> output:"The content of both files"
+--> output: *The content of both files*
 <br>
 ### Quiz:
 What's a good way to see the contents of a file?<br>
 Answer:  **cat**
+<br>
+<br>
+## 8.less
+$ less /home/pete/Documents/text1
+<br>Use the following command to navigate through less:<br>
+<br>
+q - Used to quit out of less and go back to your shell.<br>
+Page up, Page down, Up and Down - Navigate using the arrow keys and page keys.<br>
+g - Moves to beginning of the text file.<br>
+G - Moves to the end of the text file.<br>
+/search - You can search for specific text inside the text document. Prefacing the words you want to search with /<br>
+h - If you need a little help about how to use less while you’re in less, use help.
+### Exercise:
+Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.
+### Quiz:
+How do you quit out of a less command?
+Answer: **q**
 
