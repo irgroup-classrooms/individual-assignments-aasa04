@@ -103,7 +103,7 @@ G - Moves to the end of the text file.<br>
 /search - You can search for specific text inside the text document. Prefacing the words you want to search with /<br>
 h - If you need a little help about how to use less while you’re in less, use help.
 ### Exercise:
-Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.
+- [x] Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.
 ### Quiz:
 How do you quit out of a less command?
 <br>Answer: **q**
@@ -111,7 +111,7 @@ How do you quit out of a less command?
 <br>
 ## 9. history:
 ### Exercise:
-Navigate through your previous command history with the Up and Down keys. Play around with ctrl-R reverse search.
+- [x] Navigate through your previous command history with the Up and Down keys. Play around with ctrl-R reverse search.
 ### Quiz:
 What is the command to clear the terminal?<br>
 Answer: **clear**<br><br>
@@ -119,5 +119,19 @@ Use !!. If you typed cat file1 and want to run it again <br>
 Hit ctrl-R and you start typing parts of the command you want 
 ## 10. cp (Copy)
 ### Exercise:
-Copy over a couple of files, be careful not to overwrite anything important.
+- [x] Copy over a couple of files, be careful not to overwrite anything important.
 ### Quiz:
+What flag do you need to specify to copy over a directory?<br>
+Answer: **cp -r**<br>
+$ cp mycoolfile /home/pete/Documents/cooldocs
+<br>mycoolfile is the file you want to copy and /home/pete/Documents/cooldocs is where you are copying the file to.
+-* the wildcard of wildcards, it's used to represent all single characters or any string.
+-? used to represent one character
+-[] used to represent any character within the brackets <br>
+<br>
+$ cp *.jpg /home/pete/Pictures <br>
+This will copy all files with the .jpg extension in your current directory to the Pictures directory.<br>
+-$ cp -r Pumpkin/ /home/pete/Documents
+<br>r flag will recursively copy the files and directories within a directory
+-$ cp -i mycoolfile /home/pete/Pictures<br>
+ use the -i flag (interactive) to prompt you before overwriting a file
