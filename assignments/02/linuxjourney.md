@@ -126,13 +126,16 @@ Answer: **cp -r**<br>
 <br>
 $ cp mycoolfile /home/pete/Documents/cooldocs
 <br>mycoolfile is the file you want to copy and /home/pete/Documents/cooldocs is where you are copying the file to. <br>
--* the wildcard of wildcards, it's used to represent all single characters or any string.
--? used to represent one character
+<br>
+-* the wildcard of wildcards, it's used to represent all single characters or any string.<br>
+-? used to represent one character<br>
 -[] used to represent any character within the brackets <br>
 <br>
 $ cp *.jpg /home/pete/Pictures <br>
 This will copy all files with the .jpg extension in your current directory to the Pictures directory.<br>
+<br>
 -$ cp -r Pumpkin/ /home/pete/Documents
-<br>r flag will recursively copy the files and directories within a directory
+<br>r flag will recursively copy the files and directories within a directory<br>
+<br>
 -$ cp -i mycoolfile /home/pete/Pictures<br>
  use the -i flag (interactive) to prompt you before overwriting a file
