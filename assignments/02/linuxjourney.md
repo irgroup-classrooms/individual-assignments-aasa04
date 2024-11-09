@@ -93,7 +93,7 @@ Answer:  **cat**
 <br>
 <br>
 ## 8.less
-$ less /home/pete/Documents/text1
+$ less /home/pete/Documents/text1<br>
 <br>Use the following command to navigate through less:<br>
 <br>
 q - Used to quit out of less and go back to your shell.<br>
@@ -106,5 +106,18 @@ h - If you need a little help about how to use less while you’re in less, use 
 Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.
 ### Quiz:
 How do you quit out of a less command?
-Answer: **q**
-
+<br>Answer: **q**
+<br>
+<br>
+## 9. history:
+### Exercise:
+Navigate through your previous command history with the Up and Down keys. Play around with ctrl-R reverse search.
+### Quiz:
+What is the command to clear the terminal?<br>
+Answer: **clear**<br><br>
+Use !!. If you typed cat file1 and want to run it again <br>
+Hit ctrl-R and you start typing parts of the command you want 
+## 10. cp (Copy)
+### Exercise:
+Copy over a couple of files, be careful not to overwrite anything important.
+### Quiz:
