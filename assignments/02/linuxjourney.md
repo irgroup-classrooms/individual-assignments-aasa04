@@ -123,8 +123,9 @@ Hit ctrl-R and you start typing parts of the command you want
 ### Quiz:
 What flag do you need to specify to copy over a directory?<br>
 Answer: **cp -r**<br>
+<br>
 $ cp mycoolfile /home/pete/Documents/cooldocs
-<br>mycoolfile is the file you want to copy and /home/pete/Documents/cooldocs is where you are copying the file to.
+<br>mycoolfile is the file you want to copy and /home/pete/Documents/cooldocs is where you are copying the file to. <br>
 -* the wildcard of wildcards, it's used to represent all single characters or any string.
 -? used to represent one character
 -[] used to represent any character within the brackets <br>
