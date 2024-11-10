@@ -139,3 +139,90 @@ This will copy all files with the .jpg extension in your current directory to th
 <br>
 -$ cp -i mycoolfile /home/pete/Pictures<br>
  use the -i flag (interactive) to prompt you before overwriting a file
+<br>
+<br>
+## 11. mv (Move)
+### Exercise: 
+Rename a file, then move that file to a different directory.<br>
+$ mv c/Users/tareh/OneDrive/Bilder/Screenshots/Screenshot(1).png Portfolio1.png<br>
+$ mv c/Users/tareh/OneDrive/Bilder/Screenshots/Portfolio1.png /home/pete/Documents
+### Quiz:
+How do you rename a file called cat to dog? <br>
+Answer: **mv cat dog**
+<br>
+<br>
+You can rename files like this:<br>
+$ mv oldfile newfile
+<br>
+<br>
+Or you can actually move a file to a different directory:<br>
+$ mv file2 /home/pete/Documents
+<br>
+<br>
+And move more than one file:<br>
+$ mv file_1 file_2 /somedirectory
+<br>
+<br>
+You can rename directories as well:<br>
+$ mv directory1 directory2
+<br>
+<br>
+you can use the -i flag to prompt you before overwriting anything:<br>
+mv -i directory1 directory2
+<br>
+<br>
+Let’s say you did want to mv a file to overwrite the previous one. You can also make a backup of that file and it will just rename the old version with a ~:<br>
+$ mv -b directory1 directory2
+<br>
+<br>
+## 12. mkdir (Make Directory)
+### Exercise: 
+Make a couple of directories and move some files into that directory.
+$ mkdir books paintings
+### Quiz:
+What command is use to make a directory?<br>
+Answer:**mkdir**
+<br>
+<br>
+You can also create subdirectories at the same time with the -p (parent flag).<br>
+$ mkdir -p books/hemmingway/favorites
+<br>
+<br>
+## 13.
+### Exercise:
+1.Create a file called -file (don't forget the dash!).<br>
+2.Remove that file.
+### Quiz:
+How do you remove a file called myfile?<br>
+Answer: 
+<br>
+<br>
+## 14.
+### Exercise:
+### Quiz:
+<br>
+<br>
+## 15.
+### Exercise:
+### Quiz:
+<br>
+<br>
+## 16.
+### Exercise:
+### Quiz:
+<br>
+<br>
+## 17.
+### Exercise:
+### Quiz:
+<br>
+<br>
+## 18.
+### Exercise:
+### Quiz:
+<br>
+<br>
+## 19.
+### Exercise:
+### Quiz:
+
