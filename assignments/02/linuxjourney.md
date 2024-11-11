@@ -243,14 +243,28 @@ output---> less (1)             - opposite of more
 
 ### Quiz:
 What command can you use to see a small description of a command?<br>
-Answer: 
+Answer: **whatis**
 <br>
 <br>
-## 18.
+## 18. alias
 ### Exercise:
+Create a couple of aliases then remove them.<br>
+**$ alias foobar='ls -la'** <br>
+**$ unalias foobar**
+<br>
+<br>
+**$ alias name='whoami'** <br>
+**$ unalias name**
 ### Quiz:
+What command is used to make an alias?<br>
+Answer:**alias**
 <br>
 <br>
-## 19.
+## 19. exit
 ### Exercise:
+Exit out of the shell and see what happens. Make sure you don't need to do anymore work in that shell.
+**$exit** <br>
+output---> *you exit out of the shell and the terminal closes*
 ### Quiz:
+How can you exit from the shell?<br>
+Answer:**exit**
