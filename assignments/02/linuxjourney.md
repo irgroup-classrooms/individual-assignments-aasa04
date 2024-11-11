@@ -210,7 +210,7 @@ Find a file from the root directory that has the word net in it.<br>
 output---> *long list of files*
 
 ### Quiz:
-What option should I specify for find if I want to search by name?
+What option should I specify for find if I want to search by name?<br>
 Answer: **-name**
 <br>
 <br>
@@ -221,17 +221,25 @@ Run help on the echo command, logout command and pwd command.<br>
 **$ help logout**<br>
 **$ help pwd**
 ### Quiz:
-How do you get quick command line help for built-in bash commands?
+How do you get quick command line help for built-in bash commands?<br>
+Answer: **help**
 <br>
 <br>
-## 16.
+## 16. man
 ### Exercise:
+Run the man command on the ls command.
+**$ man ls**
 ### Quiz:
+How do you see the manuals for a command?<br>
+Answer:**man**
 <br>
 <br>
-## 17.
+## 17. whatis
 ### Exercise:
+Run the whatis command on the less command.
 ### Quiz:
+What command can you use to see a small description of a command?<br>
+Answer: 
 <br>
 <br>
 ## 18.
