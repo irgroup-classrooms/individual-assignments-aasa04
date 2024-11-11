@@ -228,7 +228,8 @@ Answer: **help**
 ## 16. man
 ### Exercise:
 Run the man command on the ls command.
-**$ man ls**
+**$ man ls**<br>
+output--->  *Beschreibung und Dokumentation des ls Befehls*
 ### Quiz:
 How do you see the manuals for a command?<br>
 Answer:**man**
@@ -236,7 +237,10 @@ Answer:**man**
 <br>
 ## 17. whatis
 ### Exercise:
-Run the whatis command on the less command.
+Run the whatis command on the less command.<br>
+**$ whatis less**<br>
+output---> less (1)             - opposite of more
+
 ### Quiz:
 What command can you use to see a small description of a command?<br>
 Answer: 
