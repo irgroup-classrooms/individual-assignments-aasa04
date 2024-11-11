@@ -1,6 +1,4 @@
-## Linux Journey 
-<br> 
-
+# Linux Journey 
 ## 1.The Shell
 ### Exercise: 
 Linux commands in Git Bash and what they output:
@@ -188,23 +186,42 @@ You can also create subdirectories at the same time with the -p (parent flag).<b
 $ mkdir -p books/hemmingway/favorites
 <br>
 <br>
-## 13.
+## 13. rm (Remove)
 ### Exercise:
 1.Create a file called -file (don't forget the dash!).<br>
-2.Remove that file.
+**$ touch -- -file**<br>
+<br>
+2.Remove that file.<br>
+**$ rm -- -file**
+
 ### Quiz:
 How do you remove a file called myfile?<br>
-Answer: 
+Answer: **rm myfile**
 <br>
 <br>
-## 14.
+You can remove a directory with the rmdir command:<br>
+$ rmdir directory
+<br>
+<br>
+## 14. find
 ### Exercise:
+Find a file from the root directory that has the word net in it.<br>
+**$ find anaconda3/ -type d -name "*net*"**<br>
+output---> *long list of files*
+
 ### Quiz:
+What option should I specify for find if I want to search by name?
+Answer: **-name**
 <br>
 <br>
-## 15.
+## 15. help
 ### Exercise:
+Run help on the echo command, logout command and pwd command.<br>
+**$ help echo**<br>
+**$ help logout**<br>
+**$ help pwd**
 ### Quiz:
+How do you get quick command line help for built-in bash commands?
 <br>
 <br>
 ## 16.
@@ -225,4 +242,3 @@ Answer:
 ## 19.
 ### Exercise:
 ### Quiz:
-
