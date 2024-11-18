@@ -20,35 +20,35 @@ $ grep -Eo '\(?[0-9]{3}\)?[-. ]?[0-9]{3}[-. ][0-9]{4}' /c/Users/tareh/individual
 ``` 
 3. Extract all names that start with the letter ‘J’.
 ``` 
-
+$ grep -E '^J[a-zA-Z]+' /c/Users/tareh/individual-assignments-aasa04/assignments/04/csv/contacts.csv
 ``` 
 4. Extract all street names that contain the word 'St'.
 ``` 
-
+$ grep -Eo '\b[A-Za-z0-9 .]+St\b' /c/Users/tareh/individual-assignments-aasa04/assignments/04/csv/contacts.csv
 ``` 
 5. Extract all addresses in ‘USA’.
 ``` 
-
+$ grep 'USA' /c/Users/tareh/individual-assignments-aasa04/assignments/04/csv/contacts.csv
 ``` 
 6. Extract the last names of all people.
 ``` 
-
+$ awk -F, '{print $2}' /c/Users/tareh/individual-assignments-aasa04/assignments/04/csv/contacts.csv | sed -E 's/^ *//;s/ *$//'
 ``` 
 7. Extract all email domains (part after the @ sign).
 ``` 
-
+$ grep -Eo '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' /c/Users/tareh/individual-assignments-aasa04/assignments/04/csv/contacts.csv | sed 's/.*@//'
 ``` 
 8.	Extract all instances of the first name ‘David’ along with their full address (street and city).
 ``` 
-
+$ grep 'David' /c/Users/tareh/individual-assignments-aasa04/assignments/04/csv/contacts.csv | awk -F, '{print $1, $3, $4}'
 ``` 
 9.	Find all entries where the phone number ends with ‘7’.
 ``` 
-
+$ grep -E '\(?[0-9]{3}\)?[-. ]?[0-9]{3}[-. ][0-9]{3}7\b' /c/Users/tareh/individual-assignments-aasa04/assignments/04/csv/contacts.csv
 ``` 
 10.	Extract all instances of first names that end with the letter 'e'.
 ``` 
-
+$ grep -Eo '\b[A-Za-z]+e\b' /c/Users/tareh/individual-assignments-aasa04/assignments/04/csv/contacts.csv
 ``` 
 
 ## Parsing product orders with Python
