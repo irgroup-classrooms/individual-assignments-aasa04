@@ -16,7 +16,7 @@ $ grep -Eo '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' /c/Users/tareh/indiv
 ``` 
 2. Extract all phone numbers from the text.
 ``` 
-
+$ grep -Eo '\(?[0-9]{3}\)?[-. ]?[0-9]{3}[-. ][0-9]{4}' /c/Users/tareh/individual-assignments-aasa04/assignments/04/csv/contacts.csv
 ``` 
 3. Extract all names that start with the letter ‘J’.
 ``` 
