@@ -10,4 +10,4 @@ The actual dialogue spoken by the character, sometimes including actions or cont
 "Oh Smeagol I've got one! I've got a fish Smeagol, Smeagol!"
 "We were home."
 ### movie: 
-The title of the movie from which the dialogue is taken. In this case, all entries are from The Return of the King.
+The title of the movie from which the dialogue is taken. 
